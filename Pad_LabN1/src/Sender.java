@@ -16,7 +16,7 @@ public class Sender {
 
     System.out.println("Connecting to... ");
 
-    fromserver = new Socket("localhost",9090);
+    fromserver = new Socket("localhost",8080);
     BufferedReader in  = new
      BufferedReader(new 
       InputStreamReader(fromserver.getInputStream()));

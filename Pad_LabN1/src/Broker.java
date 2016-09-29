@@ -17,9 +17,9 @@ public class Broker {
 
     // creare server socket
     try {
-      servers = new ServerSocket(9090);
+      servers = new ServerSocket(8080);
     } catch (IOException e) {
-      System.out.println("Couldn't li0sten to port 9090");
+      System.out.println("Couldn't li0sten to port 8080");
       System.exit(-1);
     }
 
